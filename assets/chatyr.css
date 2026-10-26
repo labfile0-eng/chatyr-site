@@ -41,5 +41,20 @@
 .faq-list p{font-size:14px;line-height:1.7;color:var(--muted);margin:12px 0 0;max-width:54ch}
 @media(max-width:1000px){.plans.four{grid-template-columns:1fr 1fr}.plans.four .plan:nth-child(2){border-right:0}.plans.four .plan:nth-child(-n+2){border-bottom:1px solid #bac7d1}.faq{gap:45px}}
 @media(max-width:700px){.plans.four{grid-template-columns:1fr}.plans.four .plan{border-right:0;border-bottom:1px solid #bac7d1}.plans.four .plan:last-child{border-bottom:0}.faq{grid-template-columns:1fr;gap:30px;padding-block:72px}.faq-list summary{font-size:17px}.inbox-row{grid-template-columns:1fr;gap:6px;padding:15px 16px}.inbox-row .st{justify-self:start}.inbox-head{padding:12px 16px}.inbox-draft{padding:16px}.provider-names>span{font-size:15px}}
+.law-section{padding:100px 0;border-bottom:1px solid var(--line)}
+.law{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:start}
+.law h2{font:400 clamp(31px,3.5vw,51px)/1.12 var(--display);letter-spacing:-.05em;max-width:16ch;color:var(--ink);margin:0 0 24px}
+.law-lead{font-size:14px;line-height:1.7;color:var(--muted);max-width:52ch;margin:0 0 32px}
+.audit{border:1px solid #b9c5cf;background:#f6f9fb;padding:22px 24px;display:grid;gap:12px;max-width:520px}
+.audit .lbl{font:9px/1.5 var(--mono);letter-spacing:.06em;color:#6a7d90;text-transform:uppercase;margin:0}
+.audit p{margin:0;font-size:14px;line-height:1.6;color:var(--ink)}
+.audit .btn{justify-self:start;margin-top:6px}
+.law-list{display:grid;gap:0;list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.law-list li{display:grid;grid-template-columns:86px 1fr;gap:18px;padding:20px 0;border-bottom:1px solid var(--line);font-size:13px;line-height:1.7;color:var(--muted)}
+.law-list b{display:block;font-weight:500;color:#263443;margin-bottom:2px}
+.law-ref{font:9px/1.5 var(--mono);letter-spacing:.05em;color:#6a7d90;text-transform:uppercase;padding-top:5px;white-space:nowrap}
+.law-list a{color:#344d67}
+@media(max-width:1000px){.law{gap:45px}}
+@media(max-width:700px){.law-section{padding-block:72px}.law{grid-template-columns:1fr;gap:30px}.law h2{font-size:34px;max-width:20ch}.law-list li{grid-template-columns:1fr;gap:4px}}
 .hero-description{max-width:46ch}
 .motion-enabled .section-reveal:not(.is-visible){opacity:1;transform:translateY(24px)}
