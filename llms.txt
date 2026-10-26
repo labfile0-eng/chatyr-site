@@ -5,6 +5,13 @@
 Chatyr (chatyr.kz) — сервис для общения компаний с клиентами в Казахстане: WhatsApp, Telegram, Instagram и чат на сайте в одном окне, ИИ-ответы по базе знаний компании, хранение переписки в казахстанском дата-центре по закону о персональных данных. Поставщик: ТОО «Data General», Алматы.
 
 ## Pages
+- [Возможности](https://chatyr.kz/vozmozhnosti.html)
+- [Тарифы и калькулятор](https://chatyr.kz/tarify.html)
+- [Безопасность и данные](https://chatyr.kz/bezopasnost.html)
+- [Интеграции](https://chatyr.kz/integracii.html)
+- [Справочный центр](https://chatyr.kz/spravka.html)
+- [Обновления](https://chatyr.kz/obnovleniya.html)
+- [Контакты](https://chatyr.kz/kontakty.html)
 - [Главная](https://chatyr.kz/): что делает сервис, тарифы, закон, вопросы и ответы
 - [WhatsApp для бизнеса](https://chatyr.kz/whatsapp-dlya-biznesa.html)
 - [Telegram для бизнеса](https://chatyr.kz/telegram-dlya-biznesa.html)
