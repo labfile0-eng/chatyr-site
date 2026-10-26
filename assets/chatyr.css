@@ -67,3 +67,57 @@
 @media(max-width:700px){.doc{padding:48px 16px 72px}}
 .hero-description{max-width:46ch}
 .motion-enabled .section-reveal:not(.is-visible){opacity:1;transform:translateY(24px)}
+/* Friendlier typography */
+:root,:root[data-theme="dark"],:root:not([data-theme="light"]){--display:"Manrope","Helvetica Neue",Helvetica,Arial,sans-serif;--body:"Golos Text","Segoe UI",Roboto,sans-serif}
+body{font-family:var(--body)}
+h1,h2,h3{font-family:var(--display)}
+h1{font-weight:600;letter-spacing:-.035em}
+h2{font-weight:600;letter-spacing:-.03em}
+.hero-copy{width:58%;max-width:780px;transform:translateY(-46%)}
+.hero-copy h1{font-size:clamp(42px,5vw,76px);line-height:1.04}
+.hero-description{font:400 clamp(16px,1.25vw,19px)/1.6 var(--body);letter-spacing:0;color:#f6f9fd;max-width:52ch;margin:26px 0 30px}
+.demo-link{font:500 14px/1.4 var(--body);letter-spacing:0;text-transform:none}
+.btn,.navcta,.topnav nav .navcta,.plan .pbtn{font-family:var(--body);font-weight:500;letter-spacing:.01em;text-transform:none;font-size:14px}
+.topnav nav a{font-family:var(--body);font-size:14px;letter-spacing:0;text-transform:none}
+.overview-intro,.section-heading>p,.section-intro,.diagnostic-row p,.proof ul,.law-list li,.law-lead,.faq-list p,.footer-notes p,.status,.ai-note,.inbox-row .msg,.inbox-draft p,.plan ul{font-family:var(--body)}
+.section-intro{font-size:16px}
+.diagnostic-row p{font-size:15px;line-height:1.65}
+.diagnostic-row h3{font:600 20px/1.3 var(--display);letter-spacing:-.02em}
+.proof ul,.law-list li{font-size:15px}
+.overview-intro{font-size:16px;line-height:1.6}
+.section-heading>p{font:400 16px/1.6 var(--body);color:var(--muted)}
+.faq-list summary{font-family:var(--display);font-weight:600;font-size:18px}
+.faq-list p{font-size:15px}
+.ai-note{font:14px/1.7 var(--body)}
+.hero-note{font-size:10px}
+@media(max-width:1000px){.hero-copy{width:60%}}
+@media(max-width:700px){.hero-copy{width:calc(100% - 50px);max-width:520px;top:150px;transform:none}.hero-copy h1{font-size:38px;line-height:1.06}.hero-description{font-size:15px;margin:18px 0 22px}.hero-note{display:none}}
+/* Secondary pages: forms and landings */
+.doc .lead{font-size:18px;line-height:1.65;color:var(--muted);max-width:60ch;margin:0 0 28px}
+.cform{display:grid;gap:18px;max-width:560px;border:1px solid #b9c5cf;background:#f6f9fb;padding:28px}
+.cform label{display:grid;gap:6px;font:500 13px/1.4 var(--body);color:#263443}
+.cform input,.cform select,.cform-done textarea{font:400 15px/1.4 var(--body);padding:12px 14px;border:1px solid #91a3b5;background:#fff;color:var(--ink);border-radius:0;width:100%;box-sizing:border-box}
+.cform input:focus,.cform select:focus{outline:2px solid #344d67;outline-offset:1px}
+.cform fieldset{border:0;padding:0;margin:0;display:grid;gap:8px}
+.cform legend{font:500 13px/1.4 var(--body);color:#263443;margin-bottom:6px}
+.cform .chk{display:flex;align-items:center;gap:10px;font-weight:400;font-size:15px}
+.cform .chk input{width:18px;height:18px;margin:0}
+.cform button{justify-self:start;cursor:pointer;border:1px solid var(--ink);background:var(--ink);color:#f4f7fb}
+.cform .note,.cform-done p{font-size:13px;color:var(--muted);margin:0;line-height:1.6}
+.cform-done{display:grid;gap:14px;max-width:560px;border:1px solid #b9c5cf;background:#f6f9fb;padding:28px}
+.cform-done h2{margin:0}
+.cform-done textarea{font-family:var(--mono);font-size:13px}
+.side-notes{margin-top:48px;max-width:560px}
+.side-notes ol{padding-left:20px;font-size:15px;line-height:1.7;color:var(--muted);display:grid;gap:8px}
+.cta-row{display:flex;flex-wrap:wrap;gap:28px;align-items:center;margin:0 0 56px}
+.demo-link.dark{color:#344d67;border-color:#91a3b5}
+.lrows{display:grid;gap:0;border-top:1px solid var(--line);margin:0 0 56px}
+.lrow{display:grid;grid-template-columns:1fr 1.4fr;gap:40px;padding:26px 0;border-bottom:1px solid var(--line)}
+.lrow h2{font:600 22px/1.3 var(--display);letter-spacing:-.03em;margin:0}
+.lrow p{margin:0;font-size:15px;line-height:1.7}
+.lfaq h2{margin:0 0 18px}
+.lcta{margin-top:64px;border:1px solid #b9c5cf;background:#f6f9fb;padding:36px}
+.lcta h2{margin:0 0 10px;font-size:30px}
+.lcta p{font-size:15px}
+.doc.landing{max-width:860px}
+@media(max-width:700px){.lrow{grid-template-columns:1fr;gap:10px}.cform,.cform-done{padding:20px}.lcta{padding:24px}.cta-row{gap:18px}}

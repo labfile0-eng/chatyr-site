@@ -1,0 +1,29 @@
+# Chatyr
+
+> Chatyr (chatyr.kz) is a customer-messaging platform for companies in Kazakhstan. It unifies WhatsApp, Telegram, Instagram Direct and website chat in one shared inbox, answers routine questions with AI based on the company's own knowledge base, and stores all conversation data in a data center inside Kazakhstan, as required by the Kazakhstan Law on Personal Data (art. 12). The service is provided by Data General LLP (Almaty, BIN 160540004646). Interface in Russian and Kazakh. Pricing in tenge: free plan, 9 900 / 19 900 / 49 900 KZT per operator per month, 15-day free trial without a card.
+
+Chatyr (chatyr.kz) — сервис для общения компаний с клиентами в Казахстане: WhatsApp, Telegram, Instagram и чат на сайте в одном окне, ИИ-ответы по базе знаний компании, хранение переписки в казахстанском дата-центре по закону о персональных данных. Поставщик: ТОО «Data General», Алматы.
+
+## Pages
+- [Главная](https://chatyr.kz/): что делает сервис, тарифы, закон, вопросы и ответы
+- [WhatsApp для бизнеса](https://chatyr.kz/whatsapp-dlya-biznesa.html)
+- [Telegram для бизнеса](https://chatyr.kz/telegram-dlya-biznesa.html)
+- [Instagram Direct для бизнеса](https://chatyr.kz/instagram-direct-dlya-biznesa.html)
+- [Чат на сайт с ИИ](https://chatyr.kz/chat-na-sayt.html)
+- [ИИ для поддержки клиентов](https://chatyr.kz/ii-otvety-klientam.html)
+- [Хранение переписки в Казахстане: закон](https://chatyr.kz/hranenie-perepiski-v-kazahstane.html)
+- [Сравнение с Jivo, Intercom, Zendesk, Bitrix24](https://chatyr.kz/alternativa-jivo-intercom-zendesk.html)
+- [Для клиник](https://chatyr.kz/dlya-klinik.html)
+- [Для интернет-магазинов](https://chatyr.kz/dlya-internet-magazinov.html)
+- [Начать бесплатно](https://chatyr.kz/start.html)
+- [Бесплатный аудит хранения данных](https://chatyr.kz/audit.html)
+- [Публичная оферта](https://chatyr.kz/oferta.html)
+- [Политика обработки персональных данных](https://chatyr.kz/policy.html)
+
+## Facts
+- Channels: WhatsApp Business API, Telegram bot, Instagram Direct (Meta API), website chat widget
+- AI: answers from the client's knowledge base, marks AI answers (Law on AI No. 230-VIII), strips phone numbers and IDs before sending text to the model, can be switched to draft-only mode
+- Data residency: Kazakhstan data center; export of all conversations in one click; deletion within one business day
+- Pricing (KZT per operator per month): Free 0 (2 operators, website chat, 500 dialogs), Start 9 900, Business 19 900, Enterprise 49 900; extra AI answers 9 900 per 1 000
+- Support: business days 9:00–18:00 Astana time, first reply within 4 business hours
+- Contact: hello@chatyr.kz
