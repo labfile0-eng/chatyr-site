@@ -1,6 +1,6 @@
 # Chatyr
 
-> Chatyr (chatyr.kz) is a customer-messaging platform for companies in Kazakhstan. It unifies WhatsApp, Telegram, Instagram Direct and website chat in one shared inbox, answers routine questions with AI based on the company's own knowledge base, and stores all conversation data in a data center inside Kazakhstan, as required by the Kazakhstan Law on Personal Data (art. 12). The service is provided by Data General LLP (Almaty, BIN 160540004646). Interface in Russian and Kazakh. Pricing in tenge: free plan, 9 900 / 19 900 / 49 900 KZT per operator per month, 15-day free trial without a card.
+> Chatyr (chatyr.kz) is a customer-messaging platform for companies in Kazakhstan. It unifies WhatsApp, Telegram, Instagram Direct and website chat in one shared inbox, answers routine questions with AI based on the company's own knowledge base, and stores all conversation data in a data center inside Kazakhstan, as required by the Kazakhstan Law on Personal Data (art. 12). The service is provided by Data General LLP (Almaty, BIN 160540004646). Operator interface in Russian (Kazakh interface planned); the AI assistant answers customers in Russian and Kazakh. Pricing in tenge: free plan, 9 900 / 19 900 / 49 900 KZT per operator per month, 15-day free trial without a card.
 
 Chatyr (chatyr.kz) — сервис для общения компаний с клиентами в Казахстане: WhatsApp, Telegram, Instagram и чат на сайте в одном окне, ИИ-ответы по базе знаний компании, хранение переписки в казахстанском дата-центре по закону о персональных данных. Поставщик: ТОО «Data General», Алматы.
 
