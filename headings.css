@@ -1,0 +1,5 @@
+/* Keep every line of a heading equally crisp and readable. */
+h1,h2,h3{opacity:1;filter:none;text-shadow:none}
+h1 span,h2 span,h3 span{color:inherit!important;opacity:1!important;filter:none!important;text-shadow:none!important}
+.hero-copy{z-index:5}
+.hero-copy h1,.hero-copy h1 span{color:#fff!important;opacity:1!important;filter:none!important;text-shadow:none!important}
