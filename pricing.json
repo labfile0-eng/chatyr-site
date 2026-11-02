@@ -1,0 +1,25 @@
+{
+  "version": "start-website-19900-2026-11-02",
+  "currency": "KZT",
+  "effective_for": "newly agreed service periods; existing invoices unchanged",
+  "plans": [
+    {
+      "id": "start",
+      "name": "Start",
+      "price_month": 19900,
+      "companies": 1,
+      "websites": 1,
+      "human_operators": 1,
+      "ai_answers_calendar_month_max_per_company": 300,
+      "ai_may_stop_earlier_by_attempt_and_calculated_cost_limits": true,
+      "purchase": "manual agreement, bank invoice and human verification",
+      "commercial_model": "software_access",
+      "professional_services_included": false,
+      "instructions_and_faq_in_product": true,
+      "customer_operator_handoff": true,
+      "current_onboarding": "remote_agent_assisted_pilot",
+      "full_selfservice_ready": false
+    }
+  ],
+  "url": "https://chatyr.kz/tarify.html"
+}
