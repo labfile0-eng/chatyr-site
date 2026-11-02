@@ -14,5 +14,7 @@
   const mail = new URL(link.href);
   mail.searchParams.set("subject", "Chatyr — " + scenarios[source]);
   mail.searchParams.set("body", mail.searchParams.get("body") + "\n\nСценарий: " + scenarios[source] + "\nСтраница: https://chatyr.kz/" + source + ".html");
+  // mailto uses percent-encoded spaces, not form-urlencoded '+'.
+  mail.search = mail.searchParams.toString().replace(/\+/g, "%20");
   link.href = mail.href;
 })();
