@@ -1,25 +1,80 @@
 {
-  "version": "start-website-19900-2026-11-02",
+  "version": "pilot7-three-plans-2026-11-02",
   "currency": "KZT",
-  "effective_for": "newly agreed service periods; existing invoices unchanged",
+  "effective_for": "newly agreed periods; existing invoices unchanged",
+  "trial": {
+    "name": "Пилот",
+    "price": 0,
+    "duration_days": 7,
+    "seat_quantity": 2,
+    "owner_counts_as_seat": true,
+    "ai_answers_max_entire_trial": 50,
+    "quota_resets_on_calendar_month": false,
+    "quota_resets_on_website_connection": false,
+    "starts_on": "explicit_open_test_environment_after_email_confirmation_and_terms",
+    "website_required": false,
+    "card_required": false,
+    "paid_plan_selection_required": false,
+    "automatic_paid_conversion": false,
+    "repeat_trial_per_company": false
+  },
   "plans": [
     {
       "id": "start",
-      "name": "Start",
-      "price_month": 19900,
-      "companies": 1,
-      "websites": 1,
-      "human_operators": 1,
+      "name": "Старт",
+      "price_month_per_seat": 19900,
+      "seat_quantity_min": 1,
+      "seat_quantity_max": 50,
       "ai_answers_calendar_month_max_per_company": 300,
+      "ai_quota_multiplied_by_seats": false,
       "ai_may_stop_earlier_by_attempt_and_calculated_cost_limits": true,
-      "purchase": "manual agreement, bank invoice and human verification",
-      "commercial_model": "software_access",
-      "professional_services_included": false,
-      "instructions_and_faq_in_product": true,
-      "customer_operator_handoff": true,
-      "current_onboarding": "remote_agent_assisted_pilot",
-      "full_selfservice_ready": false
+      "professional_services_included": false
+    },
+    {
+      "id": "business",
+      "name": "Бизнес",
+      "price_month_per_seat": 39900,
+      "seat_quantity_min": 1,
+      "seat_quantity_max": 50,
+      "ai_answers_calendar_month_max_per_company": 500,
+      "ai_quota_multiplied_by_seats": false,
+      "ai_may_stop_earlier_by_attempt_and_calculated_cost_limits": true,
+      "professional_services_included": false
+    },
+    {
+      "id": "enterprise",
+      "name": "Корпоративный",
+      "price_month_per_seat": 99900,
+      "seat_quantity_min": 1,
+      "seat_quantity_max": 50,
+      "ai_answers_calendar_month_max_per_company": 800,
+      "ai_quota_multiplied_by_seats": false,
+      "ai_may_stop_earlier_by_attempt_and_calculated_cost_limits": true,
+      "professional_services_included": false
     }
   ],
+  "shared_features": [
+    "website_chat",
+    "test_environment",
+    "company_knowledge_base",
+    "ai_replies",
+    "customer_operator_handoff",
+    "conversation_history",
+    "private_notes",
+    "labels",
+    "conversation_states",
+    "pilot_usage_metrics",
+    "instructions_and_faq"
+  ],
+  "not_included": [
+    "whatsapp",
+    "instagram",
+    "voice",
+    "sso",
+    "external_crm",
+    "inventory_integration",
+    "local_ai_model"
+  ],
+  "onboarding_url": "https://app.chatyr.kz/chatyr/onboarding",
   "url": "https://chatyr.kz/tarify.html"
 }
