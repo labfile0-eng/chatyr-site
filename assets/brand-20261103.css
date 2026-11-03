@@ -1,0 +1,6 @@
+/* The owner-supplied Chatyr artwork; geometry and colours preserved. */
+.logo,.footer-wordmark{display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;line-height:0;background:#0f0f14;border-radius:12px;padding:7px 10px;text-decoration:none;max-width:100%}
+.logo .chatyr-logo-image{display:block;width:146.25px;height:40px;max-width:100%;object-fit:contain}
+.footer-wordmark{width:fit-content;padding:15px 19px;margin-bottom:32px}
+.footer-wordmark .chatyr-logo-image{display:block;width:clamp(200px,32vw,380px);height:auto;max-width:100%;object-fit:contain}
+@media(max-width:700px){.logo{padding:6px 8px;border-radius:10px}.logo .chatyr-logo-image{width:124.3125px;height:34px}.footer-wordmark{padding:12px 15px}}
