@@ -28,6 +28,8 @@
 - [Ответы ИИ](https://chatyr.kz/ii-otvety-klientam.html)
 - [Хранение и обработка](https://chatyr.kz/bezopasnost.html)
 - [Контакты](https://chatyr.kz/kontakty.html)
+- [Закон о персональных данных 2026: хранение переписки в Казахстане](https://chatyr.kz/zakon-o-personalnyh-dannyh-2026.html)
+- [Семь вопросов поставщику чата о месте хранения данных](https://chatyr.kz/gde-hranit-dannye-vash-chat.html)
 
 ## English summary
 Chatyr offers a seven-day free trial for two staff members, including the owner, with up to 50 AI replies for the entire trial. It starts only when the verified owner explicitly opens the test environment after reviewing the terms. No website, card or paid-plan selection is required; there is no automatic paid conversion. Paid plans cost KZT 19,900 / 39,900 / 99,900 per staff seat per month with up to 300 / 500 / 800 AI replies per company per calendar month. AI quotas do not multiply with seat quantity; separate attempt and calculated-cost caps may stop AI earlier. Core chat, knowledge, AI and operator tools are shared across plans. The primary database is in Astana; Anthropic AI processing is abroad. Full access exposes Telegram and manual WhatsApp API configuration; customer-owned bot/API credentials and delivery verification are required. Meta/provider fees are separate. The Instagram connector is configured and verified in self-messaging mode; external companies still require Meta advanced permissions and app publication. No SSO, voice or local AI is included.
