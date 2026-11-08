@@ -1,5 +1,5 @@
 {
-  "version": "pilot7-three-plans-2026-11-02",
+  "version": "price-per-number-2026-11-08-vat16",
   "currency": "KZT",
   "effective_for": "newly agreed periods; existing invoices unchanged",
   "trial": {
@@ -20,37 +20,41 @@
   },
   "plans": [
     {
-      "id": "start",
-      "name": "Старт",
-      "price_month_per_seat": 19900,
-      "seat_quantity_min": 1,
-      "seat_quantity_max": 50,
-      "ai_answers_calendar_month_max_per_company": 300,
-      "ai_quota_multiplied_by_seats": false,
-      "ai_may_stop_earlier_by_attempt_and_calculated_cost_limits": true,
-      "professional_services_included": false
+      "id": "free",
+      "name": "Бесплатный",
+      "price_month": 0,
+      "duration": "без ограничения по сроку",
+      "whatsapp_numbers": 1,
+      "seat_quantity_max": 3,
+      "ai_answers_calendar_month_max_per_number": 100,
+      "chat_branding": "Работает на Chatyr",
+      "card_required": false,
+      "one_free_account_per": "БИН или ИИН",
+      "human_support": "нет: отвечает ИИ и справочная"
     },
     {
-      "id": "business",
-      "name": "Бизнес",
-      "price_month_per_seat": 39900,
-      "seat_quantity_min": 1,
-      "seat_quantity_max": 50,
-      "ai_answers_calendar_month_max_per_company": 500,
+      "id": "team",
+      "name": "Команда",
+      "price_month_per_number": 4900,
+      "price_month_per_number_after_founder": 9900,
+      "founder_companies_limit": 100,
+      "seat_quantity_max": null,
+      "ai_answers_calendar_month_max_per_number": 1000,
       "ai_quota_multiplied_by_seats": false,
       "ai_may_stop_earlier_by_attempt_and_calculated_cost_limits": true,
-      "professional_services_included": false
+      "chat_branding": null,
+      "human_support": "живая помощь с подключением",
+      "yearly_prepayment_months": 10
     },
     {
       "id": "enterprise",
       "name": "Корпоративный",
-      "price_month_per_seat": 99900,
-      "seat_quantity_min": 1,
-      "seat_quantity_max": 50,
-      "ai_answers_calendar_month_max_per_company": 800,
-      "ai_quota_multiplied_by_seats": false,
-      "ai_may_stop_earlier_by_attempt_and_calculated_cost_limits": true,
-      "professional_services_included": false
+      "price_month_from": 49900,
+      "own_server": true,
+      "data_processing_agreement": true,
+      "ai_can_be_disabled": true,
+      "invoice_with_vat": true,
+      "exact_terms": "по договору"
     }
   ],
   "shared_features": [
@@ -67,14 +71,65 @@
     "instructions_and_faq"
   ],
   "not_included": [
-    "whatsapp",
     "instagram",
     "voice",
     "sso",
     "external_crm",
     "inventory_integration",
-    "local_ai_model"
+    "local_ai_model",
+    "whatsapp_provider_fees",
+    "on_site_setup",
+    "provided_operators",
+    "professional_services"
   ],
   "onboarding_url": "https://app.chatyr.kz/chatyr/onboarding",
-  "url": "https://chatyr.kz/tarify.html"
+  "url": "https://chatyr.kz/tarify.html",
+  "sla": {
+    "availability_target_percent": 99.5,
+    "availability_measured": "время в месяц, без учёта плановых работ, о которых сообщается за 24 часа",
+    "downtime_compensation": "продление оплаченного периода на число дней простоя, умноженное на два",
+    "first_response": "формируется автоматически и направляется без ожидания, круглосуточно",
+    "human_review_hours": "рабочие дни с 09:00 до 18:00 по времени Астаны",
+    "first_human_review_within": "4 рабочих часа",
+    "support_channels": [
+      "chat",
+      "hello@chatyr.kz"
+    ]
+  },
+  "data_residency": {
+    "primary_database": "сервер в Астане, Республика Казахстан (провайдер — PS.kz)",
+    "backups": "тот же сервер",
+    "additional_manual_copy": "создаётся владельцем вручную; география размещения не подтверждается и не гарантируется",
+    "ai_processor": "Anthropic (за пределами Республики Казахстан)",
+    "ai_transmitted_scope": "база знаний и отобранный контекст переписки после фильтрации идентифицирующих сведений",
+    "appendix": "Приложение № 1 к публичной оферте"
+  },
+  "ai_answer_pack": {
+    "id": "ai-pack",
+    "name": "Пакет ИИ",
+    "price": 1490,
+    "ai_answers_added": 1000,
+    "billing_duration": "P1M",
+    "quota_resets_on_calendar_month": true
+  },
+  "migration": {
+    "free_onboarding": true,
+    "free_months": "столько, сколько осталось оплачено прежнему сервису, но не больше 6"
+  },
+  "partner_program": {
+    "bonus_per_client_after_second_payment": 10000,
+    "commission_percent_first_year": 20
+  },
+  "channels_note": "Чат на сайте и Telegram доступны сразу. Подключение WhatsApp требует официального Cloud API — своего или через провайдера — и выполняется нами вручную. Instagram станет доступен после одобрения приложения в Meta.",
+  "tax": {
+    "currency": "KZT",
+    "vat_included_in_prices": true,
+    "vat_rate_percent": 16,
+    "executor_is_vat_payer": true,
+    "vat_registration_certificate": "серия 60001 № 1220042",
+    "price_statement_ru": "Цены указаны в тенге и включают НДС 16 %.",
+    "vat_rate_source": "Налоговый кодекс РК с 01.01.2026 (ст. 503): базовая ставка НДС — 16 %",
+    "invoice_note": "Электронные счета-фактуры выставляются по Налоговому кодексу РК"
+  },
+  "compliance_package_available": true
 }

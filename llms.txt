@@ -2,19 +2,26 @@
 
 > Chatyr — чат, база знаний и рабочее окно сотрудников компании. Основная база переписки размещена у PS.kz в Астане, Казахстан; ИИ использует Anthropic за рубежом.
 
-## Пилот и тарифы — 2 ноября 2026
+## Пилот и тарифы — 8 ноября 2026
+- Цены указаны в тенге и включают НДС 16 %. Исполнитель — ТОО «Data General», плательщик НДС (свидетельство о постановке на учёт серия 60001 № 1220042). Электронные счета-фактуры выставляются по Налоговому кодексу РК.
 - Бесплатный пилот: 0 KZT, 7 дней, два сотрудника (владелец и один коллега), до 50 ответов ИИ на весь период.
 - Пилот начинается после подтверждения почты, ознакомления с условиями и явного нажатия «Открыть тестовую среду». Регистрация сама по себе не запускает срок.
 - Свой сайт, карта, оплата и выбор платного тарифа для пилота не нужны. Тестовая страница позволяет проверить разговор без установки виджета. Подключение сайта по желанию не обновляет срок или квоту. Автоматического платного продления нет.
-- Старт: 19 900 KZT за сотрудника в месяц, до 300 ответов ИИ за календарный месяц на компанию.
-- Бизнес: 39 900 KZT за сотрудника в месяц, до 500 ответов ИИ за календарный месяц на компанию.
-- Корпоративный: 99 900 KZT за сотрудника в месяц, до 800 ответов ИИ за календарный месяц на компанию.
-- Платные места: от 1 до 50. Цена умножается на число мест; лимит ИИ на компанию не умножается. Отдельные пределы попыток и расчётных расходов могут остановить ИИ раньше; тогда отвечает сотрудник.
+- Бесплатный тариф: 0 KZT навсегда, 1 номер WhatsApp, до 3 сотрудников, до 100 ответов ИИ в месяц, подпись «Работает на Chatyr», без платёжных данных. Один бесплатный аккаунт на один БИН или ИИН.
+- Команда: 4 900 KZT за номер в месяц (с НДС 16 %), сотрудников и диалогов сколько угодно, до 1 000 ответов ИИ в месяц на номер, отчёты и помощь с подключением, без подписи в чате.
+- Корпоративный: от 49 900 KZT в месяц (с НДС 16 %), отдельный сервер или свой контур, договор об обработке данных и приложение о размещении, ИИ можно отключить — тогда передачи за рубеж нет.
+- Пакет ИИ: 1 490 KZT за ещё 1 000 ответов искусственного интеллекта на номер.
+- Цена основатора: первые 100 организаций платят 4 900 KZT за номер навсегда, начиная со 101-й — 9 900 KZT. При оплате за год счёт выставляется на 10 месяцев вместо 12.
+- Бесплатный переезд: подключаем новый номер бесплатно и даём столько бесплатных месяцев, сколько осталось оплачено прежнему сервису, но не больше шести.
+- Партнёрская программа: интеграторам и веб-студиям 10 000 KZT за клиента после его второй оплаты и 20 % от платежей клиента в первый год.
+- Лимит ответов ИИ задан на номер и не умножается на число сотрудников. Отдельные пределы попыток и расчётных расходов могут остановить ИИ раньше; тогда отвечает сотрудник.
 - Общие инструменты: чат, история, база знаний, ИИ, передача человеку, личные заметки, метки, состояния, показатели пилота, инструкции и FAQ.
 - При полном доступе открыты настройки Telegram и WhatsApp. Нужны бот компании либо официальный API. Встроенная регистрация WhatsApp через Meta не настроена; расходы Meta и провайдера не покрываются тарифом Chatyr. Коннектор Instagram настроен и проверен в режиме переписки с собой; для подключения внешних компаний ещё нужны расширенные разрешения и публикация приложения в Meta. Голос, SSO, внешняя CRM, складские интеграции, локальная модель, внедрение и предоставленный оператор не включены.
+- Целевой показатель доступности сервиса — 99,5 % времени в месяц. Если доступность оказалась ниже по вине исполнителя, клиент получает продление оплаченного периода на число дней простоя, умноженное на два.
+- Первый ответ на обращение формируется автоматически и направляется без ожидания, круглосуточно. Вопросы, требующие решения человека, разбираются в рабочие дни с 9:00 до 18:00 по времени Астаны; первый разбор — в течение 4 рабочих часов.
 - Основная база и серверные копии находятся в Астане. География дополнительной зашифрованной ручной копии на компьютере владельца не подтверждена. Не заявляется, что все данные и обработка находятся только в Казахстане.
 - ИИ получает базу знаний и выбранный контекст; полное обезличивание не гарантируется. Чувствительные, медицинские и секретные данные не подходят для пилота. ИИ может ошибаться; важные ответы проверяет человек.
-- Ранее выставленные счета и обязательства не изменяются. Платное продолжение, число мест и условия периода подтверждаются отдельно до оплаты.
+- Ранее выставленные счета и обязательства не изменяются. Платное продолжение, тариф и условия периода подтверждаются отдельно до оплаты.
 
 ## Страницы
 - [Начать бесплатный пилот](https://app.chatyr.kz/chatyr/onboarding)
@@ -27,12 +34,16 @@
 - [Чат на сайт](https://chatyr.kz/chat-na-sayt.html)
 - [Ответы ИИ](https://chatyr.kz/ii-otvety-klientam.html)
 - [Хранение и обработка](https://chatyr.kz/bezopasnost.html)
+- [Chatwoot в Казахстане: развёрнутый, настроенный и поддерживаемый Chatyr](https://chatyr.kz/chatwoot-v-kazahstane.html)
+- [WhatsApp для команды: один номер компании и переписка в одном окне](https://chatyr.kz/whatsapp-dlya-biznesa.html)
+- [Публичная оферта: тарифы, SLA, состав обработки, Приложение № 1](https://chatyr.kz/oferta.html)
+- [Қазақша нұсқасы — негізгі бет](https://chatyr.kz/kk/)
 - [Контакты](https://chatyr.kz/kontakty.html)
 - [Закон о персональных данных 2026: хранение переписки в Казахстане](https://chatyr.kz/zakon-o-personalnyh-dannyh-2026.html)
 - [Семь вопросов поставщику чата о месте хранения данных](https://chatyr.kz/gde-hranit-dannye-vash-chat.html)
 
 ## English summary
-Chatyr offers a seven-day free trial for two staff members, including the owner, with up to 50 AI replies for the entire trial. It starts only when the verified owner explicitly opens the test environment after reviewing the terms. No website, card or paid-plan selection is required; there is no automatic paid conversion. Paid plans cost KZT 19,900 / 39,900 / 99,900 per staff seat per month with up to 300 / 500 / 800 AI replies per company per calendar month. AI quotas do not multiply with seat quantity; separate attempt and calculated-cost caps may stop AI earlier. Core chat, knowledge, AI and operator tools are shared across plans. The primary database is in Astana; Anthropic AI processing is abroad. Full access exposes Telegram and manual WhatsApp API configuration; customer-owned bot/API credentials and delivery verification are required. Meta/provider fees are separate. The Instagram connector is configured and verified in self-messaging mode; external companies still require Meta advanced permissions and app publication. No SSO, voice or local AI is included.
+Chatyr offers a seven-day free trial for two staff members, including the owner, with up to 50 AI replies for the entire trial. It starts only when the verified owner explicitly opens the test environment after reviewing the terms. No website, card or paid-plan selection is required; there is no automatic paid conversion. The free plan costs KZT 0 forever (one number, up to 3 staff, 100 AI replies per month). Paid plans are priced per number per month: Team is KZT 4,900 per number per month (unlimited staff and conversations, up to 1,000 AI replies per number per month), Enterprise starts at KZT 49,900, and an extra 1,000 AI replies cost KZT 1,490. AI quotas are per number and do not multiply with staff count; separate attempt and calculated-cost caps may stop AI earlier. Core chat, knowledge, AI and operator tools are shared across plans. The primary database is in Astana; Anthropic AI processing is abroad. Full access exposes Telegram and manual WhatsApp API configuration; customer-owned bot/API credentials and delivery verification are required. Meta/provider fees are separate. The Instagram connector is configured and verified in self-messaging mode; external companies still require Meta advanced permissions and app publication. No SSO, voice or local AI is included.
 
 ## Источники и границы
 Описания на этих страницах относятся к возможностям Chatyr и не подтверждают поисковые позиции, рейтинг, отзывы клиентов или включение в ответы ИИ. Контрольные примеры в инструкциях иллюстрируют проверку продукта, а не действующие условия компаний-клиентов. Актуальные цены — на странице тарифов и в pricing.json.
@@ -56,3 +67,12 @@ Chatyr offers a seven-day free trial for two staff members, including the owner,
 - [Альтернатива Jivo в Казахстане: как сравнить чаты](https://chatyr.kz/alternativa-jivo-v-kazahstane.html): Семь критериев сравнения чатов для сайта, как сравнивать честно, переход без риска и что Chatyr не обещает.
 - [Поддержка клиентов в мессенджерах: один кабинет и ИИ](https://chatyr.kz/podderzhka-klientov-v-messendzherah.html): Порядок ответа на обращение, роль ИИ, рабочие часы, каналы поддержки и данные клиентов.
 - [Чат для интернет-магазина в Казахстане](https://chatyr.kz/dlya-internet-magazinov.html): ответы покупателям о доставке и оплате, передача оператору.
+
+## Chatwoot в Казахстане
+- [Chatwoot в Казахстане](https://chatyr.kz/chatwoot-v-kazahstane.html): Chatwoot — открытая платформа (MIT) для общения с клиентами в одном окне. Chatyr разворачивает её в Казахстане: база на PS.kz в Астане, обновления и бэкапы на нас, ИИ-оператор по базе знаний, поддержка на русском, оплата в тенге. Версия платформы в основе сервиса — 4.19.1. Пилот — 7 дней бесплатно.
+
+## Гарантии и оферта
+- Целевой показатель доступности — 99,5 % времени в месяц; компенсация — продление оплаченного периода на число дней простоя, умноженное на два.
+- Первый ответ — автоматически и немедленно, круглосуточно; разбор человеком — рабочие дни 9:00–18:00 по времени Астаны, первый разбор в течение 4 рабочих часов.
+- Пилот — 7 дней, 0 ₸, 2 места, до 50 ответов ИИ; автоматического перехода на платный тариф нет.
+- Полные условия, состав обработки персональных данных и Приложение № 1 (размещение базы, провайдер обработки ИИ, каналы, сроки удаления) — в публичной оферте.
