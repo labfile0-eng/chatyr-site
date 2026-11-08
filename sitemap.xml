@@ -1,49 +1,318 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://chatyr.kz/</loc><lastmod>2026-11-06</lastmod></url>
-  <url><loc>https://chatyr.kz/audit.html</loc><lastmod>2026-11-02</lastmod></url>
-  <url><loc>https://chatyr.kz/bezopasnost.html</loc><lastmod>2026-11-06</lastmod></url>
-  <url><loc>https://chatyr.kz/chat-na-sayt.html</loc><lastmod>2026-11-06</lastmod></url>
-  <url><loc>https://chatyr.kz/dlya-internet-magazinov.html</loc><lastmod>2026-11-06</lastmod></url>
-  <url><loc>https://chatyr.kz/dlya-optovyh-prodazh.html</loc><lastmod>2026-11-06</lastmod></url>
-  <url><loc>https://chatyr.kz/hranenie-perepiski-v-kazahstane.html</loc><lastmod>2026-11-06</lastmod></url>
-  <url><loc>https://chatyr.kz/ii-otvety-klientam.html</loc><lastmod>2026-11-06</lastmod></url>
-  <url><loc>https://chatyr.kz/spravka-chat-na-sayte.html</loc><lastmod>2026-11-06</lastmod></url>
-  <url><loc>https://chatyr.kz/spravka-ii.html</loc><lastmod>2026-11-06</lastmod></url>
-  <url><loc>https://chatyr.kz/spravka-komanda.html</loc><lastmod>2026-11-06</lastmod></url>
-  <url><loc>https://chatyr.kz/spravka.html</loc><lastmod>2026-11-06</lastmod></url>
-  <url><loc>https://chatyr.kz/start.html</loc><lastmod>2026-11-06</lastmod></url>
-  <url><loc>https://chatyr.kz/tarify.html</loc><lastmod>2026-11-06</lastmod></url>
-  <url><loc>https://chatyr.kz/vozmozhnosti.html</loc><lastmod>2026-11-06</lastmod></url>
-  <url><loc>https://chatyr.kz/spravka-telegram.html</loc><lastmod>2026-11-06</lastmod></url>
-  <url><loc>https://chatyr.kz/spravka-whatsapp.html</loc><lastmod>2026-11-06</lastmod></url>
-  <url><loc>https://chatyr.kz/spravka-instagram.html</loc><lastmod>2026-11-06</lastmod></url>
-  <url><loc>https://chatyr.kz/telegram-dlya-biznesa.html</loc><lastmod>2026-11-06</lastmod></url>
-  <url><loc>https://chatyr.kz/whatsapp-dlya-biznesa.html</loc><lastmod>2026-11-06</lastmod></url>
-  <url><loc>https://chatyr.kz/instagram-direct-dlya-biznesa.html</loc><lastmod>2026-11-06</lastmod></url>
-  <url><loc>https://chatyr.kz/integracii.html</loc><lastmod>2026-11-06</lastmod></url>
-  <url><loc>https://chatyr.kz/kak-ne-teryat-zayavki-v-chate.html</loc><lastmod>2026-11-06</lastmod></url>
-  <url><loc>https://chatyr.kz/kak-vybrat-chat-dlya-sayta.html</loc><lastmod>2026-11-06</lastmod></url>
-  <url><loc>https://chatyr.kz/stati.html</loc><lastmod>2026-11-06</lastmod></url>
-  <url><loc>https://chatyr.kz/baza-znaniy-dlya-chata-na-sayte.html</loc><lastmod>2026-11-06</lastmod></url>
-  <url><loc>https://chatyr.kz/zakon-o-personalnyh-dannyh-2026.html</loc><lastmod>2026-11-06</lastmod></url>
-  <url><loc>https://chatyr.kz/gde-hranit-dannye-vash-chat.html</loc><lastmod>2026-11-06</lastmod></url>
-  <url><loc>https://chatyr.kz/onlayn-konsultant-dlya-sayta.html</loc><lastmod>2026-11-05</lastmod></url>
-  <url><loc>https://chatyr.kz/vidzhet-chata-dlya-sayta.html</loc><lastmod>2026-11-05</lastmod></url>
-  <url><loc>https://chatyr.kz/chat-dlya-sayta-besplatno.html</loc><lastmod>2026-11-05</lastmod></url>
-  <url><loc>https://chatyr.kz/chat-bot-dlya-sayta.html</loc><lastmod>2026-11-05</lastmod></url>
-  <url><loc>https://chatyr.kz/whatsapp-chat-dlya-sayta.html</loc><lastmod>2026-11-05</lastmod></url>
-  <url><loc>https://chatyr.kz/telegram-chat-dlya-sayta.html</loc><lastmod>2026-11-05</lastmod></url>
-  <url><loc>https://chatyr.kz/kak-ustanovit-chat-na-sayt.html</loc><lastmod>2026-11-05</lastmod></url>
-  <url><loc>https://chatyr.kz/messendzhery-v-odnom-okne.html</loc><lastmod>2026-11-05</lastmod></url>
-  <url><loc>https://chatyr.kz/alternativa-jivo-v-kazahstane.html</loc><lastmod>2026-11-05</lastmod></url>
-  <url><loc>https://chatyr.kz/podderzhka-klientov-v-messendzherah.html</loc><lastmod>2026-11-05</lastmod></url>
-  <url><loc>https://chatyr.kz/dlya-klinik.html</loc><lastmod>2026-11-05</lastmod><priority>0.7</priority></url>
-  <url><loc>https://chatyr.kz/spravka-start.html</loc><lastmod>2026-11-05</lastmod><priority>0.6</priority></url>
-  <url><loc>https://chatyr.kz/spravka-dannye.html</loc><lastmod>2026-11-06</lastmod><priority>0.6</priority></url>
-  <url><loc>https://chatyr.kz/obnovleniya.html</loc><lastmod>2026-11-06</lastmod><priority>0.5</priority></url>
-  <url><loc>https://chatyr.kz/kontakty.html</loc><lastmod>2026-11-05</lastmod><priority>0.5</priority></url>
-  <url><loc>https://chatyr.kz/oferta.html</loc><lastmod>2026-11-06</lastmod><priority>0.3</priority></url>
-  <url><loc>https://chatyr.kz/policy.html</loc><lastmod>2026-11-06</lastmod><priority>0.3</priority></url>
-  <url><loc>https://chatyr.kz/data-deletion.html</loc><lastmod>2026-11-06</lastmod><priority>0.3</priority></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://chatyr.kz/</loc>
+    <lastmod>2026-11-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chatyr.kz/"/>
+    <xhtml:link rel="alternate" hreflang="kk" href="https://chatyr.kz/kk/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chatyr.kz/"/>
+  </url>
+  <url>
+    <loc>https://chatyr.kz/alternativa-jivo-v-kazahstane.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chatyr.kz/alternativa-jivo-v-kazahstane.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chatyr.kz/alternativa-jivo-v-kazahstane.html"/>
+  </url>
+  <url>
+    <loc>https://chatyr.kz/audit.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chatyr.kz/audit.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chatyr.kz/audit.html"/>
+  </url>
+  <url>
+    <loc>https://chatyr.kz/baza-znaniy-dlya-chata-na-sayte.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chatyr.kz/baza-znaniy-dlya-chata-na-sayte.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chatyr.kz/baza-znaniy-dlya-chata-na-sayte.html"/>
+  </url>
+  <url>
+    <loc>https://chatyr.kz/bezopasnost.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chatyr.kz/bezopasnost.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chatyr.kz/bezopasnost.html"/>
+  </url>
+  <url>
+    <loc>https://chatyr.kz/chat-bot-dlya-sayta.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chatyr.kz/chat-bot-dlya-sayta.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chatyr.kz/chat-bot-dlya-sayta.html"/>
+  </url>
+  <url>
+    <loc>https://chatyr.kz/chat-dlya-sayta-besplatno.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chatyr.kz/chat-dlya-sayta-besplatno.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chatyr.kz/chat-dlya-sayta-besplatno.html"/>
+  </url>
+  <url>
+    <loc>https://chatyr.kz/chat-na-sayt.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chatyr.kz/chat-na-sayt.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chatyr.kz/chat-na-sayt.html"/>
+  </url>
+  <url>
+    <loc>https://chatyr.kz/chatwoot-v-kazahstane.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chatyr.kz/chatwoot-v-kazahstane.html"/>
+    <xhtml:link rel="alternate" hreflang="kk" href="https://chatyr.kz/kk/chatwoot-kazakhstanda.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chatyr.kz/chatwoot-v-kazahstane.html"/>
+  </url>
+  <url>
+    <loc>https://chatyr.kz/data-deletion.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chatyr.kz/data-deletion.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chatyr.kz/data-deletion.html"/>
+  </url>
+  <url>
+    <loc>https://chatyr.kz/dlya-internet-magazinov.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chatyr.kz/dlya-internet-magazinov.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chatyr.kz/dlya-internet-magazinov.html"/>
+  </url>
+  <url>
+    <loc>https://chatyr.kz/dlya-klinik.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chatyr.kz/dlya-klinik.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chatyr.kz/dlya-klinik.html"/>
+  </url>
+  <url>
+    <loc>https://chatyr.kz/dlya-optovyh-prodazh.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chatyr.kz/dlya-optovyh-prodazh.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chatyr.kz/dlya-optovyh-prodazh.html"/>
+  </url>
+  <url>
+    <loc>https://chatyr.kz/gde-hranit-dannye-vash-chat.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chatyr.kz/gde-hranit-dannye-vash-chat.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chatyr.kz/gde-hranit-dannye-vash-chat.html"/>
+  </url>
+  <url>
+    <loc>https://chatyr.kz/hranenie-perepiski-v-kazahstane.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chatyr.kz/hranenie-perepiski-v-kazahstane.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chatyr.kz/hranenie-perepiski-v-kazahstane.html"/>
+  </url>
+  <url>
+    <loc>https://chatyr.kz/ii-otvety-klientam.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chatyr.kz/ii-otvety-klientam.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chatyr.kz/ii-otvety-klientam.html"/>
+  </url>
+  <url>
+    <loc>https://chatyr.kz/instagram-direct-dlya-biznesa.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chatyr.kz/instagram-direct-dlya-biznesa.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chatyr.kz/instagram-direct-dlya-biznesa.html"/>
+  </url>
+  <url>
+    <loc>https://chatyr.kz/integracii.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chatyr.kz/integracii.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chatyr.kz/integracii.html"/>
+  </url>
+  <url>
+    <loc>https://chatyr.kz/kak-ne-teryat-zayavki-v-chate.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chatyr.kz/kak-ne-teryat-zayavki-v-chate.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chatyr.kz/kak-ne-teryat-zayavki-v-chate.html"/>
+  </url>
+  <url>
+    <loc>https://chatyr.kz/kak-ustanovit-chat-na-sayt.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chatyr.kz/kak-ustanovit-chat-na-sayt.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chatyr.kz/kak-ustanovit-chat-na-sayt.html"/>
+  </url>
+  <url>
+    <loc>https://chatyr.kz/kak-vybrat-chat-dlya-sayta.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chatyr.kz/kak-vybrat-chat-dlya-sayta.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chatyr.kz/kak-vybrat-chat-dlya-sayta.html"/>
+  </url>
+  <url>
+    <loc>https://chatyr.kz/kontakty.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chatyr.kz/kontakty.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chatyr.kz/kontakty.html"/>
+  </url>
+  <url>
+    <loc>https://chatyr.kz/messendzhery-v-odnom-okne.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chatyr.kz/messendzhery-v-odnom-okne.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chatyr.kz/messendzhery-v-odnom-okne.html"/>
+  </url>
+  <url>
+    <loc>https://chatyr.kz/obnovleniya.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chatyr.kz/obnovleniya.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chatyr.kz/obnovleniya.html"/>
+  </url>
+  <url>
+    <loc>https://chatyr.kz/oferta.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chatyr.kz/oferta.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chatyr.kz/oferta.html"/>
+  </url>
+  <url>
+    <loc>https://chatyr.kz/onlayn-konsultant-dlya-sayta.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chatyr.kz/onlayn-konsultant-dlya-sayta.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chatyr.kz/onlayn-konsultant-dlya-sayta.html"/>
+  </url>
+  <url>
+    <loc>https://chatyr.kz/podderzhka-klientov-v-messendzherah.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chatyr.kz/podderzhka-klientov-v-messendzherah.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chatyr.kz/podderzhka-klientov-v-messendzherah.html"/>
+  </url>
+  <url>
+    <loc>https://chatyr.kz/policy.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chatyr.kz/policy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chatyr.kz/policy.html"/>
+  </url>
+  <url>
+    <loc>https://chatyr.kz/spravka-chat-na-sayte.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chatyr.kz/spravka-chat-na-sayte.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chatyr.kz/spravka-chat-na-sayte.html"/>
+  </url>
+  <url>
+    <loc>https://chatyr.kz/spravka-dannye.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chatyr.kz/spravka-dannye.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chatyr.kz/spravka-dannye.html"/>
+  </url>
+  <url>
+    <loc>https://chatyr.kz/spravka-ii.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chatyr.kz/spravka-ii.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chatyr.kz/spravka-ii.html"/>
+  </url>
+  <url>
+    <loc>https://chatyr.kz/spravka-instagram.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chatyr.kz/spravka-instagram.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chatyr.kz/spravka-instagram.html"/>
+  </url>
+  <url>
+    <loc>https://chatyr.kz/spravka-komanda.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chatyr.kz/spravka-komanda.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chatyr.kz/spravka-komanda.html"/>
+  </url>
+  <url>
+    <loc>https://chatyr.kz/spravka-start.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chatyr.kz/spravka-start.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chatyr.kz/spravka-start.html"/>
+  </url>
+  <url>
+    <loc>https://chatyr.kz/spravka-telegram.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chatyr.kz/spravka-telegram.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chatyr.kz/spravka-telegram.html"/>
+  </url>
+  <url>
+    <loc>https://chatyr.kz/spravka-whatsapp.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chatyr.kz/spravka-whatsapp.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chatyr.kz/spravka-whatsapp.html"/>
+  </url>
+  <url>
+    <loc>https://chatyr.kz/spravka.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chatyr.kz/spravka.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chatyr.kz/spravka.html"/>
+  </url>
+  <url>
+    <loc>https://chatyr.kz/start.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chatyr.kz/start.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chatyr.kz/start.html"/>
+  </url>
+  <url>
+    <loc>https://chatyr.kz/stati.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chatyr.kz/stati.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chatyr.kz/stati.html"/>
+  </url>
+  <url>
+    <loc>https://chatyr.kz/tarify.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chatyr.kz/tarify.html"/>
+    <xhtml:link rel="alternate" hreflang="kk" href="https://chatyr.kz/kk/tarify.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chatyr.kz/tarify.html"/>
+  </url>
+  <url>
+    <loc>https://chatyr.kz/telegram-chat-dlya-sayta.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chatyr.kz/telegram-chat-dlya-sayta.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chatyr.kz/telegram-chat-dlya-sayta.html"/>
+  </url>
+  <url>
+    <loc>https://chatyr.kz/telegram-dlya-biznesa.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chatyr.kz/telegram-dlya-biznesa.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chatyr.kz/telegram-dlya-biznesa.html"/>
+  </url>
+  <url>
+    <loc>https://chatyr.kz/vidzhet-chata-dlya-sayta.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chatyr.kz/vidzhet-chata-dlya-sayta.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chatyr.kz/vidzhet-chata-dlya-sayta.html"/>
+  </url>
+  <url>
+    <loc>https://chatyr.kz/vozmozhnosti.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chatyr.kz/vozmozhnosti.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chatyr.kz/vozmozhnosti.html"/>
+  </url>
+  <url>
+    <loc>https://chatyr.kz/whatsapp-chat-dlya-sayta.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chatyr.kz/whatsapp-chat-dlya-sayta.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chatyr.kz/whatsapp-chat-dlya-sayta.html"/>
+  </url>
+  <url>
+    <loc>https://chatyr.kz/whatsapp-dlya-biznesa.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chatyr.kz/whatsapp-dlya-biznesa.html"/>
+    <xhtml:link rel="alternate" hreflang="kk" href="https://chatyr.kz/kk/whatsapp-dlya-komandy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chatyr.kz/whatsapp-dlya-biznesa.html"/>
+  </url>
+  <url>
+    <loc>https://chatyr.kz/zakon-o-personalnyh-dannyh-2026.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chatyr.kz/zakon-o-personalnyh-dannyh-2026.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chatyr.kz/zakon-o-personalnyh-dannyh-2026.html"/>
+  </url>
+  <url>
+    <loc>https://chatyr.kz/kk/</loc>
+    <lastmod>2026-11-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="kk" href="https://chatyr.kz/kk/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chatyr.kz/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chatyr.kz/"/>
+  </url>
+  <url>
+    <loc>https://chatyr.kz/kk/chatwoot-kazakhstanda.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="kk" href="https://chatyr.kz/kk/chatwoot-kazakhstanda.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chatyr.kz/chatwoot-v-kazahstane.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chatyr.kz/chatwoot-v-kazahstane.html"/>
+  </url>
+  <url>
+    <loc>https://chatyr.kz/kk/tarify.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="kk" href="https://chatyr.kz/kk/tarify.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chatyr.kz/tarify.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chatyr.kz/tarify.html"/>
+  </url>
+  <url>
+    <loc>https://chatyr.kz/kk/whatsapp-dlya-komandy.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="kk" href="https://chatyr.kz/kk/whatsapp-dlya-komandy.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chatyr.kz/whatsapp-dlya-biznesa.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chatyr.kz/whatsapp-dlya-biznesa.html"/>
+  </url>
 </urlset>
