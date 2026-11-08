@@ -34,7 +34,6 @@
 - [Чат на сайт](https://chatyr.kz/chat-na-sayt.html)
 - [Ответы ИИ](https://chatyr.kz/ii-otvety-klientam.html)
 - [Хранение и обработка](https://chatyr.kz/bezopasnost.html)
-- [Chatwoot в Казахстане: развёрнутый, настроенный и поддерживаемый Chatyr](https://chatyr.kz/chatwoot-v-kazahstane.html)
 - [WhatsApp для команды: один номер компании и переписка в одном окне](https://chatyr.kz/whatsapp-dlya-biznesa.html)
 - [Публичная оферта: тарифы, SLA, состав обработки, Приложение № 1](https://chatyr.kz/oferta.html)
 - [Қазақша нұсқасы — негізгі бет](https://chatyr.kz/kk/)
@@ -68,8 +67,6 @@ Chatyr offers a seven-day free trial for two staff members, including the owner,
 - [Поддержка клиентов в мессенджерах: один кабинет и ИИ](https://chatyr.kz/podderzhka-klientov-v-messendzherah.html): Порядок ответа на обращение, роль ИИ, рабочие часы, каналы поддержки и данные клиентов.
 - [Чат для интернет-магазина в Казахстане](https://chatyr.kz/dlya-internet-magazinov.html): ответы покупателям о доставке и оплате, передача оператору.
 
-## Chatwoot в Казахстане
-- [Chatwoot в Казахстане](https://chatyr.kz/chatwoot-v-kazahstane.html): Chatwoot — открытая платформа (MIT) для общения с клиентами в одном окне. Chatyr разворачивает её в Казахстане: база на PS.kz в Астане, обновления и бэкапы на нас, ИИ-оператор по базе знаний, поддержка на русском, оплата в тенге. Версия платформы в основе сервиса — 4.19.1. Пилот — 7 дней бесплатно.
 
 ## Гарантии и оферта
 - Целевой показатель доступности — 99,5 % времени в месяц; компенсация — продление оплаченного периода на число дней простоя, умноженное на два.
