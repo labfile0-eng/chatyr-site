@@ -65,3 +65,6 @@ details>summary::marker{color:var(--cy-black)}
 body.home-page{background:#fff}
 .home-page .topnav .langsw__item,.home-page .topnav .langsw__item.is-current{color:#fff!important}
 .home-page .topnav .langsw__sep{color:#ffffff80}
+
+/* подвал чёрный на всю ширину */
+.foot{box-shadow:0 0 0 100vmax var(--cy-black);clip-path:inset(0 -100vmax)}
