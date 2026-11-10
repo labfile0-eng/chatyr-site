@@ -217,3 +217,11 @@ h1,h2,h3,.doc h1,.doc h2,.law h2,.proof h2,.diagnostic-row h3,.faq-list summary{
  h2,.proof h2{font-size:36px;line-height:1.18;letter-spacing:-.02em}.doc h1{font-size:36px;line-height:1.16}.doc h2{font-size:27px}
  .section-intro,.overview-intro,.diagnostic-row p,.proof ul,.law-list li,.faq-list p,.doc p,.doc li{font-size:16px;line-height:1.65}.footer-cols .fh,.strip-label{font-size:11px}.footer-cols a{font-size:16px}.footer-bottom{font-size:10px}
 }
+
+/* шесть карточек тарифов: 3 в ряд, 2 на планшете, 1 на телефоне */
+.plans.four.six{grid-template-columns:repeat(3,1fr)}
+.plans.four.six .plan{border-right:1px solid #bac7d1;border-bottom:1px solid #bac7d1}
+.plans.four.six .plan:nth-child(3n){border-right:0}
+.plans.four.six .plan:nth-child(n+4){border-bottom:0}
+@media(max-width:1000px){.plans.four.six{grid-template-columns:1fr 1fr}.plans.four.six .plan,.plans.four.six .plan:nth-child(3n){border-right:1px solid #bac7d1;border-bottom:1px solid #bac7d1}.plans.four.six .plan:nth-child(2n){border-right:0}.plans.four.six .plan:nth-child(n+5){border-bottom:0}}
+@media(max-width:700px){.plans.four.six{grid-template-columns:1fr}.plans.four.six .plan,.plans.four.six .plan:nth-child(3n),.plans.four.six .plan:nth-child(2n){border-right:0;border-bottom:1px solid #bac7d1}.plans.four.six .plan:last-child{border-bottom:0}}

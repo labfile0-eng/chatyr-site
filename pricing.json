@@ -1,5 +1,5 @@
 {
-  "version": "price-per-number-2026-11-08-vat16",
+  "version": "price-tiers-2026-11-10-vat16",
   "currency": "KZT",
   "effective_for": "newly agreed periods; existing invoices unchanged",
   "trial": {
@@ -26,24 +26,59 @@
       "duration": "без ограничения по сроку",
       "whatsapp_numbers": 1,
       "seat_quantity_max": 3,
-      "ai_answers_calendar_month_max_per_number": 100,
       "chat_branding": "Работает на Chatyr",
       "card_required": false,
       "one_free_account_per": "БИН или ИИН",
-      "human_support": "нет: отвечает ИИ и справочная"
+      "human_support": "нет: отвечает ИИ и справочная",
+      "ai_answers_calendar_month_max": 100
     },
     {
       "id": "team",
-      "name": "Команда",
-      "price_month_per_number": 4900,
-      "price_month_per_number_after_founder": 9900,
-      "founder_companies_limit": 100,
+      "name": "Старт",
+      "price_month": 14000,
+      "whatsapp_numbers_included": 1,
       "seat_quantity_max": null,
-      "ai_answers_calendar_month_max_per_number": 1000,
+      "ai_answers_calendar_month_max": 1000,
       "ai_quota_multiplied_by_seats": false,
+      "ai_quota_multiplied_by_numbers": false,
       "ai_may_stop_earlier_by_attempt_and_calculated_cost_limits": true,
       "chat_branding": null,
       "human_support": "живая помощь с подключением",
+      "yearly_prepayment_months": 10,
+      "former_name": "Команда",
+      "price_month_per_number": 7500,
+      "price_month_per_number_after_founder": 14000,
+      "founder_price_month": 7500,
+      "founder_companies_limit": 100,
+      "founder_price_duration": "навсегда",
+      "ai_answers_calendar_month_max_per_number": 1000
+    },
+    {
+      "id": "business",
+      "name": "Бизнес",
+      "price_month": 30000,
+      "whatsapp_numbers_included": 3,
+      "seat_quantity_max": null,
+      "ai_answers_calendar_month_max": 3000,
+      "ai_quota_multiplied_by_seats": false,
+      "ai_quota_multiplied_by_numbers": false,
+      "ai_may_stop_earlier_by_attempt_and_calculated_cost_limits": true,
+      "chat_branding": null,
+      "human_support": "каналы подключаем за клиента",
+      "yearly_prepayment_months": 10
+    },
+    {
+      "id": "pro",
+      "name": "Про",
+      "price_month": 67000,
+      "whatsapp_numbers_included": 10,
+      "seat_quantity_max": null,
+      "ai_answers_calendar_month_max": 10000,
+      "ai_quota_multiplied_by_seats": false,
+      "ai_quota_multiplied_by_numbers": false,
+      "ai_may_stop_earlier_by_attempt_and_calculated_cost_limits": true,
+      "chat_branding": null,
+      "human_support": "каналы подключаем за клиента, персональный менеджер",
       "yearly_prepayment_months": 10
     },
     {
@@ -57,6 +92,15 @@
       "exact_terms": "по договору"
     }
   ],
+  "extra_number": {
+    "price_month": 4900,
+    "applies_to": [
+      "team",
+      "business",
+      "pro"
+    ],
+    "adds_ai_quota": false
+  },
   "shared_features": [
     "website_chat",
     "test_environment",
@@ -110,7 +154,12 @@
     "price": 1490,
     "ai_answers_added": 1000,
     "billing_duration": "P1M",
-    "quota_resets_on_calendar_month": true
+    "quota_resets_on_calendar_month": true,
+    "applies_to": [
+      "team",
+      "business",
+      "pro"
+    ]
   },
   "migration": {
     "free_onboarding": true,
