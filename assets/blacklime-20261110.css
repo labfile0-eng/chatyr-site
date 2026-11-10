@@ -60,3 +60,8 @@ details>summary::marker{color:var(--cy-black)}
 /* казахская версия: одна лаймовая кнопка, остальные чёрные */
 .kk-plan .btn.primary{background:var(--cy-black)!important;color:#fff!important;border-color:var(--cy-black)!important}
 .kk-plan:first-child .btn.primary{background:var(--cy-lime)!important;color:var(--cy-black)!important;border-color:var(--cy-lime)!important}
+
+/* главная: белый фон разделов, переключатель языка на чёрном */
+body.home-page{background:#fff}
+.home-page .topnav .langsw__item,.home-page .topnav .langsw__item.is-current{color:#fff!important}
+.home-page .topnav .langsw__sep{color:#ffffff80}
