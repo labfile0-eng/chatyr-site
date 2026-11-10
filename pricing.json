@@ -1,5 +1,5 @@
 {
-  "version": "price-tiers-2026-11-10-vat16",
+  "version": "price-tiers-2026-11-10b-vat16",
   "currency": "KZT",
   "effective_for": "newly agreed periods; existing invoices unchanged",
   "trial": {
@@ -47,11 +47,28 @@
       "yearly_prepayment_months": 10,
       "former_name": "Команда",
       "price_month_per_number": 7500,
-      "price_month_per_number_after_founder": 14000,
+      "price_month_per_number_after_founder": 9900,
       "founder_price_month": 7500,
       "founder_companies_limit": 100,
       "founder_price_duration": "навсегда",
-      "ai_answers_calendar_month_max_per_number": 1000
+      "ai_answers_calendar_month_max_per_number": 1000,
+      "founder_ladder": [
+        {
+          "companies": "1-100",
+          "price_month": 7500,
+          "duration": "навсегда"
+        },
+        {
+          "companies": "101-200",
+          "price_month": 9900,
+          "duration": "навсегда"
+        },
+        {
+          "companies": "201+",
+          "price_month": 14000
+        }
+      ],
+      "price_month_per_number_regular": 14000
     },
     {
       "id": "business",
