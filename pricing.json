@@ -1,5 +1,5 @@
 {
-  "version": "price-tiers-2026-11-10b-vat16",
+  "version": "price-tiers-2026-11-10c-vat16",
   "currency": "KZT",
   "effective_for": "newly agreed periods; existing invoices unchanged",
   "trial": {
@@ -59,12 +59,12 @@
           "duration": "навсегда"
         },
         {
-          "companies": "101-200",
+          "companies": "101-300",
           "price_month": 9900,
           "duration": "навсегда"
         },
         {
-          "companies": "201+",
+          "companies": "301+",
           "price_month": 14000
         }
       ],
