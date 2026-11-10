@@ -35,15 +35,15 @@ function init(renderer) {
   renderer.toneMapping = THREE.ACESFilmicToneMapping;
   renderer.toneMappingExposure = 1.0;
   const scene = new THREE.Scene();
-  scene.background = new THREE.Color('#aebdce');
-  scene.fog = new THREE.FogExp2('#aebdce', 0.034);
+  scene.background = new THREE.Color('#0f0f14');
+  scene.fog = new THREE.FogExp2('#0f0f14', 0.034);
   const camera = new THREE.PerspectiveCamera(40, 1, 0.1, 130);
-  scene.add(new THREE.HemisphereLight('#eff6ff', '#5d6c81', 1.65));
-  const key = new THREE.DirectionalLight('#f1f7ff', 3.1);
+  scene.add(new THREE.HemisphereLight('#ffffff', '#1a1a20', 1.15));
+  const key = new THREE.DirectionalLight('#ffffff', 2.6);
   key.position.set(-6, 12, 7);scene.add(key);
-  const rim = new THREE.DirectionalLight('#bddaff', 2.8);
+  const rim = new THREE.DirectionalLight('#c6f432', 3.2);
   rim.position.set(7, 5, -7);scene.add(rim);
-  const fill = new THREE.DirectionalLight('#e6edff', 0.6);
+  const fill = new THREE.DirectionalLight('#ffffff', 0.5);
   fill.position.set(2, 1, 10);scene.add(fill);
 
   // A repeatable frost texture is generated entirely in memory.
@@ -59,7 +59,7 @@ function init(renderer) {
   const frost = new THREE.CanvasTexture(tex);
   frost.wrapS = frost.wrapT = THREE.RepeatWrapping;
   frost.repeat.set(3, 3);
-  const material = new THREE.MeshStandardMaterial({color:'#9fadc0',roughness:0.53,metalness:0.13,bumpMap:frost,bumpScale:0.055});
+  const material = new THREE.MeshStandardMaterial({color:'#24242c',roughness:0.42,metalness:0.28,bumpMap:frost,bumpScale:0.055});
   const geometry = new RoundedBoxGeometry(0.96, 0.96, 0.96, 4, 0.065);
   const core = new THREE.Group();
   const blocks = [];
@@ -77,11 +77,11 @@ function init(renderer) {
     core.add(mesh);
     blocks.push({mesh, base:mesh.position.clone(), direction, rot, phase:random() * Math.PI * 2});
   }
-  const heart = new THREE.Mesh(new RoundedBoxGeometry(2.92,2.92,2.92,3,.08),new THREE.MeshBasicMaterial({color:'#e6f4ff'}));
+  const heart = new THREE.Mesh(new RoundedBoxGeometry(2.92,2.92,2.92,3,.08),new THREE.MeshBasicMaterial({color:'#c6f432'}));
   core.add(heart);
   core.rotation.set(.12, -.48, -.075);
   scene.add(core);
-  const innerLight = new THREE.PointLight('#e6f6ff', 30, 7, 2);
+  const innerLight = new THREE.PointLight('#c6f432', 30, 7, 2);
   innerLight.position.set(3.25, 3.7, 2);scene.add(innerLight);
 
   // Terrain: layered sine noise produces a glacier with a valley around the core.
@@ -96,7 +96,7 @@ function init(renderer) {
     const ridge = Math.sin(x * .21 + .7) * Math.cos(z * .1) * back * .16;
     const height = n * (1 + Math.min(2.4, Math.abs(z) * .09)) + Math.max(0,ridge) - 1.1;
     pos.setY(i, height);
-    const c = new THREE.Color().setHSL(.6, .13, .47 + random() * .09 + n * .045);
+    const c = new THREE.Color().setHSL(.66, .08, .045 + random() * .02 + n * .02);
     colors.push(c.r,c.g,c.b);
   }
   terrainGeometry.setAttribute('color',new THREE.Float32BufferAttribute(colors,3));
@@ -108,7 +108,7 @@ function init(renderer) {
   // Broad, soft contact shadow without expensive per-frame shadow maps.
   const shadowCanvas = document.createElement('canvas');shadowCanvas.width=shadowCanvas.height=128;
   const sc=shadowCanvas.getContext('2d'),grad=sc.createRadialGradient(64,64,4,64,64,64);
-  grad.addColorStop(0,'rgba(40,55,78,.45)');grad.addColorStop(.5,'rgba(40,55,78,.20)');grad.addColorStop(1,'rgba(40,55,78,0)');
+  grad.addColorStop(0,'rgba(0,0,0,.6)');grad.addColorStop(.5,'rgba(0,0,0,.3)');grad.addColorStop(1,'rgba(0,0,0,0)');
   sc.fillStyle=grad;sc.fillRect(0,0,128,128);
   const shadow = new THREE.Mesh(new THREE.PlaneGeometry(7.4,7.4),new THREE.MeshBasicMaterial({map:new THREE.CanvasTexture(shadowCanvas),transparent:true,depthWrite:false}));
   shadow.rotation.x=-Math.PI/2;shadow.position.set(3.25,-.48,0);scene.add(shadow);
@@ -117,7 +117,7 @@ function init(renderer) {
   const snowPositions=[];
   for(let i=0;i<100;i++)snowPositions.push((random()-.5)*35,random()*13-1,(random()-.5)*28);
   const snowGeometry=new THREE.BufferGeometry();snowGeometry.setAttribute('position',new THREE.Float32BufferAttribute(snowPositions,3));
-  const snow=new THREE.Points(snowGeometry,new THREE.PointsMaterial({color:'#f1f8ff',size:.022,transparent:true,opacity:.5,depthWrite:false}));scene.add(snow);
+  const snow=new THREE.Points(snowGeometry,new THREE.PointsMaterial({color:'#c6f432',size:.022,transparent:true,opacity:.45,depthWrite:false}));scene.add(snow);
 
   function resize() {
     const w=host.clientWidth,h=host.clientHeight;

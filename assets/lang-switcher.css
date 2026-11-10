@@ -1,11 +1,11 @@
 /* Chatyr — переключатель языка. Добавлен 06.11.2026. */
 .langsw{display:inline-flex;align-items:center;gap:.35rem;margin-right:14px;
- font:600 12px/1 var(--mono,ui-monospace,monospace);letter-spacing:.04em;color:var(--muted,#6a7d90)}
-.langsw__item{color:var(--muted,#6a7d90);text-decoration:none;padding:.3rem .1rem;
+ font:600 12px/1 var(--mono,ui-monospace,monospace);letter-spacing:.04em;color:var(--muted,#66666b)}
+.langsw__item{color:var(--muted,#66666b);text-decoration:none;padding:.3rem .1rem;
  border-bottom:1px solid transparent;border-radius:3px}
 .langsw__item:hover{color:var(--ink,#0f0f14)}
-.langsw__item.is-current{color:var(--ink,#0f0f14);border-bottom-color:var(--accent,#5b8cff)}
-.langsw__sep{color:var(--line,#e2e6ec)}
+.langsw__item.is-current{color:var(--ink,#0f0f14);border-bottom-color:var(--accent,#c6f432)}
+.langsw__sep{color:var(--line,#eeeeeb)}
 /* До 1000px шапка сворачивается в меню: переключатель уходит внутрь меню,
    чтобы не выдавливать шапку за пределы экрана. При открытом меню он виден. */
 @media (max-width:1000px){
