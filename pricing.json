@@ -1,5 +1,5 @@
 {
-  "version": "price-tiers-2026-11-10c-vat16",
+  "version": "price-tiers-2026-11-13-vat16",
   "currency": "KZT",
   "effective_for": "newly agreed periods; existing invoices unchanged",
   "trial": {
@@ -16,22 +16,13 @@
     "card_required": false,
     "paid_plan_selection_required": false,
     "automatic_paid_conversion": false,
-    "repeat_trial_per_company": false
+    "repeat_trial_per_company": false,
+    "ai_can_be_disabled": true,
+    "documents_contract_invoice_act_electronic_vat_invoice": false,
+    "data_processing_agreement": false,
+    "channel_connection_help": "подключение по инструкции"
   },
   "plans": [
-    {
-      "id": "free",
-      "name": "Бесплатный",
-      "price_month": 0,
-      "duration": "без ограничения по сроку",
-      "whatsapp_numbers": 1,
-      "seat_quantity_max": 3,
-      "chat_branding": "Работает на Chatyr",
-      "card_required": false,
-      "one_free_account_per": "БИН или ИИН",
-      "human_support": "нет: отвечает ИИ и справочная",
-      "ai_answers_calendar_month_max": 100
-    },
     {
       "id": "team",
       "name": "Старт",
@@ -43,32 +34,36 @@
       "ai_quota_multiplied_by_numbers": false,
       "ai_may_stop_earlier_by_attempt_and_calculated_cost_limits": true,
       "chat_branding": null,
-      "human_support": "живая помощь с подключением",
+      "human_support": "помощь с подключением в переписке, пока канал не заработает",
       "yearly_prepayment_months": 10,
       "former_name": "Команда",
       "price_month_per_number": 7500,
       "price_month_per_number_after_founder": 9900,
       "founder_price_month": 7500,
       "founder_companies_limit": 100,
-      "founder_price_duration": "навсегда",
+      "founder_price_duration": "пока подписка не прерывается",
       "ai_answers_calendar_month_max_per_number": 1000,
       "founder_ladder": [
         {
           "companies": "1-100",
           "price_month": 7500,
-          "duration": "навсегда"
+          "duration": "пока подписка не прерывается"
         },
         {
           "companies": "101-300",
           "price_month": 9900,
-          "duration": "навсегда"
+          "duration": "пока подписка не прерывается"
         },
         {
           "companies": "301+",
           "price_month": 14000
         }
       ],
-      "price_month_per_number_regular": 14000
+      "price_month_per_number_regular": 14000,
+      "channel_connection_help": "помогаем в переписке, пока канал не заработает",
+      "documents_contract_invoice_act_electronic_vat_invoice": true,
+      "data_processing_agreement": true,
+      "ai_can_be_disabled": true
     },
     {
       "id": "business",
@@ -81,8 +76,12 @@
       "ai_quota_multiplied_by_numbers": false,
       "ai_may_stop_earlier_by_attempt_and_calculated_cost_limits": true,
       "chat_branding": null,
-      "human_support": "каналы подключаем за клиента",
-      "yearly_prepayment_months": 10
+      "human_support": "каналы настраиваем удалённо сами; от клиента нужны доступы и подтверждения в Meta и Telegram",
+      "yearly_prepayment_months": 10,
+      "channel_connection_help": "настраиваем каналы удалённо сами",
+      "documents_contract_invoice_act_electronic_vat_invoice": true,
+      "data_processing_agreement": true,
+      "ai_can_be_disabled": true
     },
     {
       "id": "pro",
@@ -95,18 +94,25 @@
       "ai_quota_multiplied_by_numbers": false,
       "ai_may_stop_earlier_by_attempt_and_calculated_cost_limits": true,
       "chat_branding": null,
-      "human_support": "каналы подключаем за клиента, персональный менеджер",
-      "yearly_prepayment_months": 10
+      "human_support": "каналы настраиваем удалённо сами; от клиента нужны доступы и подтверждения в Meta и Telegram, персональный менеджер",
+      "yearly_prepayment_months": 10,
+      "channel_connection_help": "настраиваем каналы удалённо сами",
+      "documents_contract_invoice_act_electronic_vat_invoice": true,
+      "data_processing_agreement": true,
+      "ai_can_be_disabled": true
     },
     {
       "id": "enterprise",
       "name": "Корпоративный",
-      "price_month_from": 49900,
+      "price_month_from": 150000,
       "own_server": true,
       "data_processing_agreement": true,
       "ai_can_be_disabled": true,
       "invoice_with_vat": true,
-      "exact_terms": "по договору"
+      "exact_terms": "по договору",
+      "channel_connection_help": "настраиваем каналы удалённо сами",
+      "documents_contract_invoice_act_electronic_vat_invoice": true,
+      "data_residency_appendix": true
     }
   ],
   "extra_number": {
@@ -180,13 +186,14 @@
   },
   "migration": {
     "free_onboarding": true,
-    "free_months": "столько, сколько осталось оплачено прежнему сервису, но не больше 6"
+    "free_months": "столько, сколько осталось оплачено прежнему сервису, но не больше 6",
+    "guide_url": "https://chatyr.kz/pereezd.html"
   },
   "partner_program": {
     "bonus_per_client_after_second_payment": 10000,
     "commission_percent_first_year": 20
   },
-  "channels_note": "Чат на сайте и Telegram доступны сразу. Подключение WhatsApp требует официального Cloud API — своего или через провайдера — и выполняется нами вручную. Instagram станет доступен после одобрения приложения в Meta.",
+  "channels_note": "Чат на сайте и Telegram доступны сразу. Подключение WhatsApp требует официального Cloud API, своего или через провайдера. Помощь с подключением зависит от тарифа, см. channel_connection_help. Выезд не предусмотрен. Instagram станет доступен после одобрения приложения в Meta.",
   "tax": {
     "currency": "KZT",
     "vat_included_in_prices": true,
@@ -197,5 +204,29 @@
     "vat_rate_source": "Налоговый кодекс РК с 01.01.2026 (ст. 503): базовая ставка НДС — 16 %",
     "invoice_note": "Электронные счета-фактуры выставляются по Налоговому кодексу РК"
   },
-  "compliance_package_available": true
+  "compliance_package_available": true,
+  "channel_connection_help": {
+    "trial": "подключение по инструкции",
+    "team": "помогаем в переписке, пока канал не заработает",
+    "business_and_above": "настраиваем каналы удалённо сами; от клиента нужны только доступы и подтверждения в Meta и Telegram",
+    "on_site_visit": false,
+    "accounts_stay_with_client": "аккаунт Meta, номер WhatsApp и Telegram-бот остаются у клиента"
+  },
+  "documents": {
+    "applies_to": [
+      "team",
+      "business",
+      "pro",
+      "enterprise"
+    ],
+    "items": [
+      "contract",
+      "invoice",
+      "completion_act",
+      "electronic_vat_invoice",
+      "data_processing_agreement"
+    ],
+    "not_in_trial": true,
+    "contract_note": "публичная оферта или подписанный договор по запросу"
+  }
 }
